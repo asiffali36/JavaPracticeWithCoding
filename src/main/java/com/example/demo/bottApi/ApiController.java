@@ -63,7 +63,7 @@ public class ApiController {
         ).collect(Collectors.toList());
 
         apiService.updateRecord(modelClass,id);
-
+        System.out.println("nothing");
         return modelClass;
     }
 }
